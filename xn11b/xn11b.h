@@ -44,7 +44,7 @@
 
 /* LiveOcean bio choices */
 /*DM changed to undefine 20250716*/
-#undefine BIO_FENNEL
+#undef BIO_FENNEL
 #ifdef BIO_FENNEL
 #  define BIO_SEDIMENT
 #  define DENITRIFICATION
