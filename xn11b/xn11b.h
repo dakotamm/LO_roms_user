@@ -43,8 +43,8 @@
 #define ANA_BSFLUX
 
 /* LiveOcean bio choices */
-/*DM changed to undefine 20250716*/
-#undef BIO_FENNEL
+/*DM changed to undefine 20250716 - changed back on 20250725*/
+#define BIO_FENNEL
 #ifdef BIO_FENNEL
 #  define BIO_SEDIMENT
 #  define DENITRIFICATION
