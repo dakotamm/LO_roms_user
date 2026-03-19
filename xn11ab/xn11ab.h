@@ -29,7 +29,8 @@
 #define EMINUSP
 #define DEFLATE
 #define HDF5
-#undef AVERAGES
+/*DM changed to define 20260318*/
+#define AVERAGES
 #define WET_DRY
 #define OMEGA_IMPLICIT
 
